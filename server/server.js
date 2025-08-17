@@ -35,6 +35,8 @@ app.use('/api/adoptions', require('./routes/adoptionRoutes'));
 // Animal Specialists routes
 app.use('/api/specialists', require('./routes/animalSpecialistRoutes'));
 
+// Services routes
+app.use('/api/services', require('./routes/servicesRoutes'));
 
 
 

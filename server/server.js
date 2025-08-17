@@ -26,6 +26,8 @@ app.use('/api/users', require('./routes/userRoutes'));
 // Authentication routes
 app.use('/api/auth', require('./routes/authRoutes'));
 
+// Memory routes
+app.use('/api/memories', require('./routes/memoryRoutes'));
 
 
 // Start server

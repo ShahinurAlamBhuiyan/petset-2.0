@@ -47,6 +47,8 @@ app.use('/api/products', require('./routes/productRoutes'));
 // Order routes
 app.use('/api/orders', require('./routes/orderRoutes'));
 
+// Hostel Order routes
+app.use('/api/hostel-orders', require('./routes/hostelOrderRoutes'));
 
 // Start server
 const PORT = process.env.PORT || 5001;

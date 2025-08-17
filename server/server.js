@@ -18,6 +18,12 @@ app.use(cors({
 
 app.use(express.json());
 
+// --- ROUTES ---
+
+// User management routes
+app.use('/api/users', require('./routes/userRoutes'));
+
+
 
 // Start server
 const PORT = process.env.PORT || 5001;

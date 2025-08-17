@@ -38,6 +38,8 @@ app.use('/api/specialists', require('./routes/animalSpecialistRoutes'));
 // Services routes
 app.use('/api/services', require('./routes/servicesRoutes'));
 
+// Appointment routes
+app.use('/api/appointments', require('./routes/appointmentRoutes'));
 
 
 // Start server

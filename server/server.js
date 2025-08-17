@@ -23,6 +23,9 @@ app.use(express.json());
 // User management routes
 app.use('/api/users', require('./routes/userRoutes'));
 
+// Authentication routes
+app.use('/api/auth', require('./routes/authRoutes'));
+
 
 
 // Start server

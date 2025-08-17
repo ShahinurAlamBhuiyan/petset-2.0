@@ -44,6 +44,8 @@ app.use('/api/appointments', require('./routes/appointmentRoutes'));
 // Product routes
 app.use('/api/products', require('./routes/productRoutes'));
 
+// Order routes
+app.use('/api/orders', require('./routes/orderRoutes'));
 
 
 // Start server

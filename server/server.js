@@ -32,6 +32,12 @@ app.use('/api/memories', require('./routes/memoryRoutes'));
 // Adoption routes
 app.use('/api/adoptions', require('./routes/adoptionRoutes'));
 
+// Animal Specialists routes
+app.use('/api/specialists', require('./routes/animalSpecialistRoutes'));
+
+
+
+
 // Start server
 const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));

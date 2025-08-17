@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import ReduxProvider from "@/providers/ReduxProvider";
 import TopBar from "@/components/shared/TopBar";
+import NavBar from "@/components/shared/NavBar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
         <ReduxProvider>
           <TopBar />
+          <NavBar />
           {children}
         </ReduxProvider>
       </body>

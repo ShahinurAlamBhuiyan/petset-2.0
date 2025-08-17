@@ -41,6 +41,10 @@ app.use('/api/services', require('./routes/servicesRoutes'));
 // Appointment routes
 app.use('/api/appointments', require('./routes/appointmentRoutes'));
 
+// Product routes
+app.use('/api/products', require('./routes/productRoutes'));
+
+
 
 // Start server
 const PORT = process.env.PORT || 5001;

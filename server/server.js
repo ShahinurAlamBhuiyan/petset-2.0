@@ -29,6 +29,8 @@ app.use('/api/auth', require('./routes/authRoutes'));
 // Memory routes
 app.use('/api/memories', require('./routes/memoryRoutes'));
 
+// Adoption routes
+app.use('/api/adoptions', require('./routes/adoptionRoutes'));
 
 // Start server
 const PORT = process.env.PORT || 5001;

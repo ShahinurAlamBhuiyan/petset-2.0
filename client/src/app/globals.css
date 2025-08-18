@@ -5,3 +5,7 @@
 .custom-container {
   @apply px-4 sm:px-12 xl:px-36 py-[35px] sm:py-[50px];
 }
+
+.custom-button {
+  @apply px-6 py-3 border-[2px] border-primaryOrange rounded-lg text-primaryOrange font-extrabold tracking-wider uppercase hover:bg-primaryOrange hover:text-white;
+}

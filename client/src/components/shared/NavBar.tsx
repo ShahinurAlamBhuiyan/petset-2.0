@@ -4,7 +4,7 @@ import { useState } from "react";
 import logo from "@/assets/petsetlogo.png";
 import Image from "next/image";
 import Link from "next/link";
-import { Menu, X } from "lucide-react"; // hamburger + close icons
+import { Menu, X } from "lucide-react";
 
 type Props = {};
 const NavBar = (props: Props) => {
@@ -19,7 +19,7 @@ const NavBar = (props: Props) => {
                 </Link>
 
                 {/* Desktop Menu */}
-                <div className="hidden lg:flex items-center gap-6 text-white font-bold text-lg lg:ml-[-100px]">
+                <div className="hidden lg:flex items-center gap-6 text-white font-bold text-lg lg:ml-[-10%]">
                     <Link href="/" className="hover:underline hover:text-primaryOrange">
                         Home
                     </Link>

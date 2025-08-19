@@ -19,7 +19,7 @@ const NavBar = (props: Props) => {
                 </Link>
 
                 {/* Desktop Menu */}
-                <div className="hidden md:flex items-center gap-6 text-white font-bold text-lg">
+                <div className="hidden lg:flex items-center gap-6 text-white font-bold text-lg lg:ml-[-100px]">
                     <Link href="/" className="hover:underline hover:text-primaryOrange">
                         Home
                     </Link>
@@ -56,11 +56,11 @@ const NavBar = (props: Props) => {
                 </div>
 
                 {/* Desktop Button */}
-                <button className="hidden md:block custom-button">Login</button>
+                <button className="hidden lg:block custom-button">Login</button>
 
                 {/* Mobile Toggle Button */}
                 <button
-                    className="md:hidden text-white"
+                    className="lg:hidden text-white"
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     {isOpen ? <X size={28} /> : <Menu size={28} />}
@@ -69,7 +69,7 @@ const NavBar = (props: Props) => {
 
             {/* Mobile Menu */}
             {isOpen && (
-                <div className="md:hidden flex flex-col gap-4 px-6 pb-6 text-white font-bold lg:text-lg bg-[#181818]">
+                <div className="lg:hidden flex flex-col items-center gap-4 px-6 pb-6 text-white font-bold lg:text-lg bg-[#181818]">
                     <Link href="/" onClick={() => setIsOpen(false)}>
                         Home
                     </Link>

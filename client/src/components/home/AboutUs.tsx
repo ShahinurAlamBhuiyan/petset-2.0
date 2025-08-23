@@ -24,7 +24,7 @@ const AboutUs = (props: Props) => {
                 <h4 className="text-[#777] text-2xl font-bold">
                     Beyond Care: Tailored Services for Every Pet's Needs
                 </h4>
-                <p className="text-[#36454F] font-medium text-xl">
+                <p className="text-[#777] font-medium text-xl">
                     Embark on a journey with PetSet, where our commitment goes beyond traditional pet care. Explore the array of specialized services designed to cater to every facet of your furry companion's life.
                 </p>
                 <ul className="font-extrabold">

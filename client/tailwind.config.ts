@@ -13,6 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
         primaryOrange: "#ed6436",
         primaryGreen: "#65c178",
+        paragraph: "#777777",
       },
     },
   },

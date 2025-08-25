@@ -51,7 +51,7 @@ const specialists: Specialist[] = [
     }
 ]
 
-const CatSpecialists = () => {
+const PetSpecialists = () => {
     return (
         <section className="custom-container bg-[#f9f9fb] py-16">
             {/* Section Heading */}
@@ -111,4 +111,4 @@ const CatSpecialists = () => {
     )
 }
 
-export default CatSpecialists
+export default PetSpecialists

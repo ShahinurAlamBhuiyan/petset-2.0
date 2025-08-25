@@ -4,7 +4,7 @@ import { features } from '@/data/landing'
 
 const OurFeatures = () => {
     return (
-        <div className="custom-container bg-[#f2f2f4] py-12">
+        <div className="custom-container bg-[#f2f2f4]">
             <h4 className="text-primaryGreen text-[28px] font-bold hidden sm:block text-center">
                 Popular Features
             </h4>

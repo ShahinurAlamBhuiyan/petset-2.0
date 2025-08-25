@@ -60,7 +60,7 @@ const PetSpecialists = () => {
                     Popular Specialists
                 </h4>
                 <h1 className="text-4xl xl:text-6xl 2xl:text-7xl font-bold text-primaryOrange">
-                    Meet Our <span className="text-black">Cat Experts</span>
+                    Meet Our <span className="text-black">Pet Experts</span>
                 </h1>
             </div>
 
